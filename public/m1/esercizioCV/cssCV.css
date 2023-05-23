@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(255, 235, 205, 0.522);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intestazione {
+    text-align: center;
+    color: brown;
+}
+
+#informazioni {
+    text-align: center;
+    font-size: smaller;
+}
+
+.sec-title {
+    color: black;
+    background-color: rgba(165, 42, 42, 0.267);
+}
+
+.sec-sub-title:before {
+    content: "\2713" " ";
+}
+
+.sec-sub-title {
+    font-style: italic;
+    text-indent: 1em;
+}
+
+.p-sec {
+    text-indent: 2em;
+}
